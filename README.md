@@ -1,3 +1,4 @@
+
 # 智链 ZhiLian · 企业级 RAG AI 知识库
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
@@ -11,7 +12,7 @@
 
 > 基于检索增强生成（RAG）的企业级 AI 知识管理系统：上传企业内部文档，系统自动解析、向量化并建立混合索引；提问时通过「全文检索 + 向量检索」混合召回（RRF 融合排序），由大模型流式生成**带引用溯源**的回答，并配套知识图谱、多组织权限、Token 配额与用量监控等企业级能力。
 
-本仓库为**项目演示仓库**，收录系统实际运行录屏。▶ 点击下方图片即可播放对应视频。
+本仓库为**项目演示仓库**，收录系统实际运行录屏。
 
 ## 🖥️ 界面与功能展示
 
@@ -19,25 +20,40 @@
 
 [![界面与功能展示](assets/01-ui-features.jpg)](assets/01-ui-features.mp4)
 
+https://github.com/user-attachments/assets/e10a6ab9-76c4-42dc-b941-778f9b91291f
+
+
+
 ## 🦙 Ollama 本地模型
 
 接入 Ollama 本地推理，数据不出内网，支持在界面中切换本地 / 云端模型。
 
 ### 模型切换展示
-
 [![ollama本地模型展示](assets/02-ollama-models.jpg)](assets/02-ollama-models.mp4)
+
+https://github.com/user-attachments/assets/62739d26-8b81-4ecf-9dc6-3534395f4a42
+
+
 
 ### Ollama + Qwen 9B 回答展示
 
 基于本地部署的 Qwen 9B 模型进行知识库问答：命中知识库 → 混合召回 → 流式输出，回答附带「来源#N」引用，可点开原文比对。
-
 [![ollama_qwen9B回答展示](assets/03-ollama-qwen9b.jpg)](assets/03-ollama-qwen9b.mp4)
+
+https://github.com/user-attachments/assets/7c946dc0-a043-4842-ab22-a3132d59afee
+
+
+
 
 ## 🐬 DeepSeek 模型回答与用量监控
 
 切换 DeepSeek 云端 API 后的问答效果；管理端可实时监控 LLM / Embedding 的 Token 消耗、用量趋势、超额预警与用户用量排行。
-
 [![DeepSeek模型回答展示与用量监控](assets/04-deepseek-usage.jpg)](assets/04-deepseek-usage.mp4)
+
+https://github.com/user-attachments/assets/0b5f1196-9f52-4795-96c2-4b9e12adf7bc
+
+
+
 
 ## ✨ 核心特性
 
