@@ -23,7 +23,7 @@
 
 接入 Ollama 本地推理，数据不出内网，支持在界面中切换本地 / 云端模型。
 
-### 本地模型展示
+### 模型切换展示
 
 [![ollama本地模型展示](assets/02-ollama-models.jpg)](assets/02-ollama-models.mp4)
 
